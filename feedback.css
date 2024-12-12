@@ -29,7 +29,7 @@ h1{
   font-family: 'Garamond', serif; 
   font-size: 25px;  
   font-weight: normal; 
-  color: #300200; 
+  color: #290200; 
   line-height: 1.5;  
   text-align: center; 
   margin: 10rem 0 1rem 0; 
@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: radial-gradient( circle at 50% 50%, var(--back), #352b2b);
+  background: radial-gradient( circle at 50% 50%, var(--back),#fac8c8, #611717);
 }
 
 
@@ -242,7 +242,7 @@ body:has(.star:nth-child(6):hover) .star-rating .number-rating:before {
   background:
     radial-gradient(circle at 50% 125%, #fff0 45%, var(--ar) calc(45% + 1px) 50%, #fff0 calc(50% + 1px) 100%),
     radial-gradient(circle at 50% -25%, #fff0 45%, var(--ar) calc(45% + 1px) 50%, #fff0 calc(50% + 1px) 100%),
-    conic-gradient(from -45deg at 50% 60%, var(--ar) 0 25%, #fff0 0 100%),
+    conic-gradient(from -45deg at 50% 60%, var(--ar) 0 25%,#fff0 0 100%),
     conic-gradient(from 135deg at 50% 40%, var(--ar) 0 25%, #fff0 0 100%);
   background-size: 100% 45%, 100% 45%, 1.75vmin 1.75vmin, 1.75vmin 1.75vmin;
   background-repeat: no-repeat;
