@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0e2d9;
+  }
+
+.topnav {
+    background-color: #f0e2d9;
+    overflow: hidden;
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+    padding: 5px 0;  
+  }
+  
+  .topnav a {
+    color: #4e0202;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffe8e8;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4e4040;
+    color: rgb(253, 251, 251);
+  }
+  
+.row {
+    display: flex;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex: 5 10 100%; 
+    width: 80%;
+    margin: 10 10px;
+}
+
+.card__img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.column {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.side {
+    background-color: #f0e2d9; 
+    border: 1px solid #ccc; 
+    flex: 20 0 30%;
+}
+
+.portfolio-item {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.portfolio-img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 0; 
+    font-family: 'Goudy Old Style';
+    font-size:20;
+}
+P{
+    font-family: 'Candara';
+    font-size: 15px;
+}
+
+.footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0e2d9;
+    color: #4e0202;
+    text-align: center;
+    height: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;  
+    padding: 0; 
+  }
+
+  .card__button {
+    text-decoration: none; 
+    color: black;
+    font-family: 'Goudy Old Style';
+    font-size: 9;
+}
